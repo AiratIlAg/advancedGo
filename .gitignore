@@ -1,0 +1,16 @@
+# IDE
+.idea/
+*.iml
+modules.xml
+vcs.xml
+
+# Go
+bin/
+vendor/
+*.exe
+*.test
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
