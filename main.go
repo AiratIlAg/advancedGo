@@ -10,6 +10,7 @@ import (
 	"path/filepath"
 	"runtime"
 	"sort"
+	"stage5/feature"
 	"strings"
 	"sync"
 )
@@ -304,4 +305,5 @@ func main() {
 			fmt.Printf("Количество слов \"%s\": %d\n", words[i].Word, words[i].Count)
 		}
 	}
+	feature.Feature()
 }
